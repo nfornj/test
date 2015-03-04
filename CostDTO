@@ -1,0 +1,34 @@
+package com.neeraj.calculate.dto;
+
+import java.math.BigDecimal;
+import java.util.Date;
+
+public class CostDTO {
+
+	String costID = new String() ;
+	BigDecimal costAmount ;
+	Date costDate;
+
+	public String getCostID() {
+		return costID;
+	}
+	public void setCostID(String costID) {
+		this.costID = costID;
+	}
+	public BigDecimal getCostAmount() {
+		return costAmount;
+	}
+	public void setCostAmount(BigDecimal costAmount) {
+		this.costAmount = costAmount;
+	}
+	public void setDate(Date costDate) {
+		this.costDate=costDate;
+
+	}
+
+	public Date getCostDate(){
+
+		return costDate;
+
+	}
+}
